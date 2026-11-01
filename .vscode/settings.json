@@ -1,0 +1,12 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^go (build|test|vet) .\/...$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^terraform fmt -check -recursive examples$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
